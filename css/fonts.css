@@ -1,15 +1,15 @@
 @font-face {
-	font-family: 'V_Holy_Mackerel'; 
-	src: url(../fonts/V_Holy_Mackerel.ttf); 
+	font-family: 'Geologica-light'; 
+	src: url(../fonts/Geologica/static/Geologica-Light.ttf); 
 }
 
 
 @font-face {
-	font-family: 'VAG_World'; 
-	src: url(../fonts/VAG_World.otf); 
+	font-family: 'Geologica-regular';  
+	src: url(../fonts/Geologica/static/Geologica-Regular.ttf); 
 }
 
 @font-face {
-	font-family: 'Roboto-medium'; 
-	src: url(../fonts/Roboto/Roboto-Medium.ttf); 
+	font-family: 'Geologica-medium'; 
+	src: url(../fonts/Geologica/static/Geologica-Medium.ttf); 
 }

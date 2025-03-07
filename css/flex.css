@@ -3,7 +3,7 @@
     display: flex;
 }
 
-.flex-warap {
+.flex-wrap {
 
     display: flex;
     flex-wrap: wrap;
@@ -38,4 +38,9 @@
 .ai-sb {
 
     align-items:stretch;
+}
+
+.ai-end {
+
+    align-items:flex-end;
 }

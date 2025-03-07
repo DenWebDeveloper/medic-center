@@ -7,281 +7,317 @@
 
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/flex.css">
-    <link rel="stylesheet" href="./css/grid.css">
+   
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/media.css">
     <link rel="stylesheet" href="./css/fonts.css">
    
-    <title>Базовая разметка</title>
+    <title>Медицинский центр</title>
 </head>
 <body>
 
-    <section class="main__section section">
+    <header class="header">
+        <div class="container flex ai-center jc-sb">
+            <div class="logo">
+                <img src="./images/main__section/logo.png" class="img_logo" alt="">
+            </div>
 
-        <div class="container">
-            <div class="main__block">
-                <div class="wrapper__left__block">
-                    <div class="block__main__logo">
-                        <img src="./images/main__logo/логотип без фона.png" alt="" class="main__logo">
-                    </div>
-                    <h1 class="main__title">
-                        Поставка медицинского <br>оборудования ведущих мировых <br>производителей. <br>Комплексное оснащение медицинских учреждений.
-                    </h1>
+            <div class="e__mail">info@medeksp.com</div>
+        </div>
+    </header>
 
-                    <div class="wrapper__btn flex ai-center jc-sb">
+    <section class="section__2">
+        <div class="container flex ai-center jc-sb">
 
-                        <div class="item__btn contacts">Контакты</div>
-                        <div class="item__btn company">О компании</div>
+            <div class="left__block block">
+                <h1 class="title main__title">
+                    Поставка медицинского оборудования ведущих мировых производителей.
+                </h1>
+                <h2 class="title second__title">
+                    Комплексное оснащение медицинских учреждений.
+                </h2>
 
-                    </div>
+                <div class="btn">
+                    <a href="#contacts" class="link__contacts">Контакты</a>
+                    
                 </div>
+            </div>
 
-                <img src="./images/main__section/main__img.png" class="main__image" alt="">
+            <div class="right__block block">
+                <img src="./images/main__section/1.jpg" alt="" class="item">
             </div>
         </div>
     </section>
 
-    <section class="section sec_2">
-        <div class="container-1">
-
-            <h2 class="title">
-                Интегрируемое в отраслевые системы<br>
-                решение на базе нейросетевых технологий<br> анализа пространственных данных
-            </h2>
-
-            <p class="description__sec_2">
-                Система объединяет всех участников строительного процесса и позволяет<br> подробно следить за ходом работ в режиме реального времени.
-
-            </p>
-
-            <div class="wrapper__content">
-
-                <div class="item__content ">
-                    <ul class="spisok__content ">
-
-                        <li class="item__spiska item__left__spiska">
-                            Подрядные организации
-
-                            <img src="./images/sec_2/arrows/right_down.svg" class="arrow__right__long" alt="">
-                            
-                        </li>
-                        <li class="item__spiska item__left__spiska">
-                            Проектировщики
-                            <img src="./images/sec_2/arrows/right.svg" class="arrow__right" alt="">
-                        </li>
-                        <li class="item__spiska item__left__spiska">
-                            Эксплуатирующие организации
-                            <img src="./images/sec_2/arrows/right.svg" class="arrow__right" alt="">
-
-                        </li>
-                        <li class="item__spiska item__left__spiska">
-                            Технические заказчики
-                            <img src="./images/sec_2/arrows/right_up.svg" class="arrow__right__long" alt="">
-
-                        </li>
-
-                    </ul>
-                </div>
-                <div class="item__content-1">
-                    <div class="wrapper__img">
-                        <img src="./images/sec_2/monitor.svg" alt="" class="img__svf">
-                    </div>
-
-                    <ul class="sspisok ">
-                        <li>Среда общих данных</li>
-                        <li>Личный кабинет подрядчика</li>
-                        <li>Интеллектуальная система строительного<br>
-                            мониторинга
-                        </li>
-                    </ul>
-                </div>
-                <div class="item__content">
-                    <ul class="spisok__content ">
-
-                        <li class="item__spiska item__right__spiska">
-                            Департамент строительства и жилищной политики
-
-                            <img src="./images/sec_2/arrows/left_down.svg" class="arrow__left__long" alt="">
-
-                        </li>
-                        <li class="item__spiska item__right__spiska">
-                            Служба государственного строительного надзора
-
-                            <img src="./images/sec_2/arrows/left.svg" class="arrow__left" alt="">
-
-                        </li>
-                        <li class="item__spiska item__right__spiska">
-                            Управление государственной экспертизы проектной документации
-
-                            <img src="./images/sec_2/arrows/left.svg" class="arrow__left" alt="">
-
-                        </li>
-                        <li class="item__spiska item__right__spiska">
-                            Государственные и муниципальные заказчики
-
-                            <img src="./images/sec_2/arrows/left_up.svg" class="arrow__left__long" alt="">
-
-                        </li>
-
-                    </ul>
-                </div>
-
-            </div>
-  
-        </div>
-    </section>
-
-    <section class="section sec-3">
+    <section class="section__3 slider">
         <div class="container">
-
-            <div class="wrapper__description__sec_3">
-
-                <h2 class="title__sec-3">Возможности нейросетевого анализа цифровых копий</h2>
-                <p class="description__sec-3">Цифровые инструменты для заказчика и подрядчика</p>
-
-                <div class="gallary__container">
-
-                    <div class="wrapper__sec-3">
-
-                        <div class="item__sec-3 item__img">
-                            <img src="./images/sec-3/contant/1.jpg" alt="">
-                        </div>
-
-                        <div class="item__sec-3 item__icon">
-                            <div class="wrapper__icon">
-                                <img src="./images/sec-3/icon/1.svg" class="icon" alt="">
-                            </div>
-                            <p class="description">Внедрение современных и эффективных решений для повышения уровня медицинского обслуживания в лечебных учреждениях</p>
-                        </div>
-
-                        <div class="item__sec-3 item__icon">
-                            <div class="wrapper__icon">
-                                <img src="./images/sec-3/icon/2.svg" class="icon" alt="">
-                            </div>
-                            <p class="description">Сопровождение проектов по оснащению лечебных учреждений, включая поставку оборудования «под ключ».</p>
-
-                        </div>
-
-                        <div class="item__sec-3 item__icon">
-                            <div class="wrapper__icon">
-                                <img src="./images/sec-3/icon/3.svg" class="icon" alt="">
-                            </div>
-                            <p class="description">Монтаж оборудования, инструктаж и обучение медицинского персонала</p>
-
-                        </div>
-
-                        <div class="item__sec-3 item__icon">
-                            <div class="wrapper__icon">
-                                <img src="./images/sec-3/icon/4.svg" class="icon" alt="">
-                            </div>
-                            <p class="description">Гарантийное и постгарантийное обслуживание осуществляется через наших надежных партнеров — специализированные сервисные компании, имеющие официальный статус и необходимую квалификацию.</p>
-
-                        </div>
-
-                        <div class="item__sec-3 item__icon">
-                            <div class="wrapper__icon">
-                                <img src="./images/sec-3/icon/5.svg" class="icon" alt="">
-                            </div>
-                            <p class="description">Компания аккредитована на всех значимых электронных торговых площадках (ЭТП), есть возможность участия в конкурсных процедурах закупок. </p>
-
-                        </div>
-                        
-                    </div>
-
-                </div>
-
-              
-            </div>
-           
-
-        
-        </div>
-    </section>
-
-    <section class="section sec_4">
-        <div class="container">
-
-
-            <h2 class="title__sec_4">
-                Эффект<br> от применения решения
-            </h2>
-
-            <div class="wrapper__card">
-
-                <div class="item__card">
-                    <div class="wrapper__icon">
-                        <img src="./images/sec-4/icon/check.svg" alt="" class="icon">
-                    </div>
-                    <p class="descroption__card">Снижение дебиторской задолженности путем подержания информационной модели объекта в актуальном состоянии</p>
-                </div>
-
-                <div class="item__card">
-                    <div class="wrapper__icon">
-                        <img src="./images/sec-4/icon/check.svg" alt="" class="icon">
-                    </div>
-                    <p class="descroption__card">Получение реальной исполнительной документации в процессе реализации объекта</p>
-                </div>
-
-                <div class="item__card">
-                    <div class="wrapper__icon">
-                        <img src="./images/sec-4/icon/check.svg" alt="" class="icon">
-                    </div>
-                    <p class="descroption__card">Проведение дистанционных проверок ГСН, что позволит ограничится одной итоговой проверкой для выдачи ЗОС</p>
-                </div>
-
-                <div class="item__card">
-                    <div class="wrapper__icon">
-                        <img src="./images/sec-4/icon/check.svg" alt="" class="icon">
-                    </div>
-                    <p class="descroption__card">Формирование итоговой, актуальной Эксплуатацион-ной цифровой модели объекта с дальнейшей передачей балансодержателю</p>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section class="section sec_5">
-        <div class="container">
-
-            <div class="wrapper__description__sec_3">
-
-                <h2 class="title">СОЗДАЕМ И ВНЕДЛЯЕМ ПРОГРАММНОЕ<br> ОБЕСПЕЧЕНИЕ ДЛЯ ОПТИМИЗАЦИИ ПРОЦЕССОВ<br> И УЛУЧШЕНИЯ КАЧЕСТВА СТРОИТЕЛЬСТВА</h2>
-
-                <p class="sec_5__description">Компания СИНАПС — российский разработчик программного<br> обеспечения на базе искусственного интеллекта.</p>
-                <p class="sec_5__description">В своих решениях мы совмещаем технологии нейросетевого анализа<br> пространственных данных с глубокой экспертизой в отраслевых процессах.</p>
-            </div>
-
-           
-
-        </div>
-    </section>
-
-    
-    <section class="section sec_6">
-        <div class="container">
-
             <div class="wrapper">
 
-                <h2 class="title">Контакты</h2>
-                <p class="phone">+7 000 000-00-00</p>
-                <p class="e-mail">Здесь будет адрес электронной почты</p>
+                <!-- <div class="item__block item__slide">
+                    <div class="item__img">
+                        <img src="./images/section__2/1__sumsung.png" alt="">
+                    </div>
+
+                    <div class="item__img">
+                        <img src="./images/section__2/2__philips.png" alt="">
+                    </div>
+
+                    <div class="item__img">
+                        <img src="./images/section__2/3__general.png" alt="">
+                    </div>
+
+                    <div class="item__img">
+                        <img src="./images/section__2/4__mindray.png" alt="">
+                    </div>
+
+                    <div class="item__img">
+                        <img src="./images/section__2/5__canon.png" alt="">
+                    </div>
+
+                    <div class="item__img">
+                        <img src="./images/section__2/6__pentax.png" alt="">
+                    </div>
+
+                    <div class="item__img">
+                        <img src="./images/section__2/7__fugifilm.png" alt="">
+                    </div>
+
+                    <div class="item__img">
+                        <img src="./images/section__2/8__sonoscape.png" alt="">
+                    </div>
+
+                    <div class="item__img">
+                        <img src="./images/section__2/9__siements.png" alt="">
+                    </div>
+
+                    <div class="item__img">
+                        <img src="./images/section__2/10__chison.png" alt="">
+                    </div>
+
+                    <div class="item__img">
+                        <img src="./images/section__2/11__hitachi.png" alt="">
+                    </div>
+
+                    <div class="item__img">
+                        <img src="./images/section__2/12__olimpus.png" alt="">
+                    </div>
+                </div> -->
+
+                <div class="item__block item">
+                    <h2 class="title__slide">
+                        ООО «Торговая компания Медэксперт» — надежный поставщик медицинского оборудования ведущих мировых производителей.
+                    </h2>
+                </div>
+
             </div>
-       
+        </div>
+      
+    </section>
+
+    <section class="section__4 sec">
+        <div class="container">
+            <h3 class="title">
+                <span class="medium">Наша миссия</span>
+                <span class="regular">— внедрение современных и эффективных решений для повышения уровня медицинского обслуживания в лечебных учреждениях.</span>
+            </h3>
+            <div class="arrow__down">
+                <img src="./images/section__4/Arrow 2.png" alt="">
+            </div>
+
+            <h2 class="description">
+
+                <span class="medium">Мы предлагаем</span>
+
+                <span class="regular">широкий ассортимент медицинского оборудования и расходных материалов.</span>
+            </h2>
         </div>
     </section>
 
-    <footer class="footer">
+    <section class="section__5">
+        <div class="container">
 
-        <div class="footer__container">
-            
-        <p class="recviziti">
-            Общество с ограниченной ответственностью «Синапс». ИНН: 9713016391. КПП: 771301001. ОГРН: 1247700409285 от 03.06.2024
+            <div class="wrapper flex-wrap ai-center jc-sb">
+                <div class="item">стерилизационное</div>
+                <div class="item">диагностическое</div>
+                <div class="item">эндоскопическое</div>
+                <div class="item">хирургическое</div>
+                <div class="item">реанимационное</div>
+                <div class="item">офтальмологическое</div>
+                <div class="item">рентгенологическое</div>
+                <div class="item">лабораторное</div>
+                <div class="item">стоматологическое</div>
+            </div>
 
-            Место нахождения: г. Москва, ул. 2-я Лыковская, 63с10. Почта: info@sinap.ru
-        </p>
+            <div class="wrap flex ai-center jc-center">
+                 <div class="item ">и другое оборудование</div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="section__6">
+        <div class="container flex ai-center jc-sb">
+            <div class="left__item">
+                <img src="./images/section__4/1.jpg" alt="">
+            </div>
+            <div class="right__item">
+                <p class="item__desc">Почему мы?</p>
+
+                <div class="icon">
+                    <img src="./images/section__4/icon__sneg.png" alt="">
+                </div>
+
+                <p class="bottom__desc">
+                    Наша компания обеспечивает 
+                    <span class="medium">сопровождение проектов</span>
+                     по оснащению лечебных учреждений, включая поставку оборудования<br><span class="medium">«под ключ».</span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__7">
+
+        <div class="container">
+
+            <div class="wrapper flex ai-center jc-sb">
+                <div class="left__item item">
+                    выполняем монтаж
+                    оборудования
+                </div>
+                <div class="central__item">
+                    <img src="./images/section__7/arrow__left.png" alt="" class="left__arroow">
+                    <img src="./images/section__7/arrow__right.png" alt="" class="right__arrow">
+                    <div class="krug">Мы</div>
+    
+                    <img src="./images/section__7/arrow__down.png" alt="" class="down__arrow">
+
+                    <div class="bottom__item item">проводим инструктаж</div>
+
+    
+                </div>
+                <div class="right__item item">
+                    обучаем медицинский
+                    персонал 
+                </div>
+            </div>
+        </div>
+ 
+    </section>
+
+    <section class="section__8">
+        <div class="container">
+            <div class="wrapper flex jc-sb">
+
+                <div class="left__block block flex-col jc-sb">
+                    <p>Гарантийное и постгарантийное обслуживание осуществляется через наших надежных партнеров</p>
+                    <img src="./images/section__4/icon__2.png" alt="">
+                </div>
+
+                <div class="right__block block">
+                    <p class="medium">— специализированные сервисные компании, имеющие официальный статус и необходимую квалификацию. </p>
+                    <p class="light">
+                        Все работы выполняются на высоком профессиональном уровне, в том числе
+                        на территории заказчика.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section__9">
+        <div class="container flex-col ai-center">
+            <div class="icon">
+                <img src="./images/section__4/Vector 2.png" alt="">
+            </div>
+
+            <p class="description">
+                ООО «Торговая компания Медэксперт» обладает <br>большим опытом участия в государственных<br>
+                и коммерческих тендерах и аккредитована на всех федеральных электронных торговых площадках (ЭТП).
+            </p>
+
+            <div class="icon__arrow__down">
+                <img src="./images/section__4/Arrow 2.png" alt="">
+            </div>
+
+            <p class="description_2">
+                <span class="medium">Мы нацелены</span>
+                <span class="regular">на модернизацию парка медицинского оборудования в соответствии с запросами<br>
+                    заказчиков, обеспечивая:
+                </span>
+            </p>
+
+            <div class="wrapper flex ai-center jc-sb">
+                <div class="item"> оперативность поставок</div>
+                <div class="item"> конкурентоспособные предложения</div>
+                <div class="item">долгосрочное <br>и взаимовыгодное сотрудничество</div>
+            </div>
+
+            <div class="wrap__card flex ai-center jc-sb">
+                <div class="left__item__card item__card">
+                    <img src="./images/section__4/2.jpg" alt="" class="card">
+                </div>
+                <div class="right__item__card item__card">
+                    <p>ВЫ ПОЛУЧИТЕ:</p>
+                    <img src="./images/section__4/icon__polsneg.png" class="logo" alt="">
+
+                    <ul class="list">
+                        <li>
+                            <div class="dot"></div>
+                            Комплексный подход;
+
+                        </li>
+                            
+                        <li>
+                            <div class="dot"></div>
+                            Профессиональную команду;
+                        </li>
+                         
+                        <li>
+                            <div class="dot"></div>
+                            Гарантию качества;
+                        </li>
+                       
+                        <li>
+                            <div class="dot"></div>
+                            Гибкость: мы адаптируемся к запросам заказчиков;
+                        </li>
+                         
+                        <li>   
+                            <div class="dot"></div>
+                            Прозрачность: участвуем в государственных и коммерческих тендерах.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+     
+
+          
         </div>
 
-    </footer>
+      
+    </section>
+
+    <section class="section__contacts" id="contacts">
+
+        <div class="container flex-col ai-center">
+            <p class="text">
+                Мы готовы стать вашим надежным партнером
+                в реализации проектов любой сложности!
+            </p>
+    
+            <p class="contacts">Контакты</p>
+            <p class="phone">+7 (932) 652-13-34</p>
+            <p class="email">info@medeksp.com </p>
+        </div>
+        <p class="footer__description">
+            ООО "Торговая компания Медэксперт" ОГРН	1247700774727 ИНН/КПП	9727093445/772701001 117042, город Москва, ул Горчакова, д. 11, помещ. 14/2
+        </p>
+    </section>
+
 
     <script src="js/main.js"></script>
     
