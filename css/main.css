@@ -63,11 +63,12 @@ body {
 
 .section__2 .left__block .title {
 
-
+    width: 590px;
     font-family: 'Geologica-regular';
    
-    font-size: 40px;
+    font-size: 30px;
     color: #C62928;
+    text-transform: uppercase;
 
 }
 
