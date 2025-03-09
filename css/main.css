@@ -16,7 +16,7 @@ body {
 
 .container {
 
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 
     /* background-color: rgb(206, 206, 206); */
@@ -68,6 +68,7 @@ body {
    
     font-size: 30px;
     color: #C62928;
+
     text-transform: uppercase;
 
 }
@@ -141,14 +142,14 @@ body {
 .slider .wrapper .item__block {
 
     /* position: absolute; */
-    width: 100%;
+    /* width: 100%;
     height: 100%;
 
 
     top: 0;
-    left: 0;
+    left: 0; */
 }
-.slider .wrapper .item__slide {
+/* .slider .wrapper .item__slide {
 
     background-color: #fff;
 
@@ -164,7 +165,7 @@ body {
 
     box-shadow: 5px 5px 10px #aaa9a9;
 
-}
+} */
 
 .slider .wrapper .title__slide {
 
@@ -276,6 +277,13 @@ body {
     justify-content: center;
 
     padding: 10px 50px;
+}
+
+.section__5 .wrapper .item.disable {
+
+    display: none;
+
+
 }
 
 .section__5 .item {
@@ -422,12 +430,16 @@ body {
     transform: translate(-50%, 150%);
 
 }
-.section__7 .central__item .left__arroow {
+.section__7 .central__item .left__arrow {
     position: absolute;
     left: 0;
 
+    transform-origin: center right;
+
     transform: translate(-150%, -50%);
     top: 50%;
+
+
 }
 .section__7 .central__item .right__arrow {
 
@@ -536,6 +548,10 @@ body {
     margin-bottom: 83px;
 }
 
+.section__9 .mobile__arrow__down {
+
+    display: none;
+}
 .section__9 .icon__arrow__down {
     margin-bottom: 83px;
 }
@@ -660,9 +676,19 @@ body {
     border-radius: 50%;
 }
 
+.section__9 .right__item__card .div__arrow__right {
+
+    position: absolute;
+    top: 3px;
+    left: -3px;
+
+    display: none;
+    width: 61.68px;
+}
+
 .section__contacts {
 
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
 }
 
 .section__contacts .text {
@@ -705,12 +731,18 @@ body {
 
 .section__contacts .footer__description {
 
-    width: 1500px;
+    width: 1150px;
     margin: 0 auto;
     font-family: 'Geologica-light';
-    font-size: 32px;
+    font-size: 22px;
     line-height: 47px;
     text-align: center;
+    text-transform: uppercase;
+}
+
+.section__contacts .footer__description br {
+
+    display: none;
 }
 
 
