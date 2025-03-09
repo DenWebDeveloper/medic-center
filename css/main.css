@@ -235,6 +235,11 @@ body {
     margin-bottom: 83px;
 }
 
+.section__4 .arrow__down .mobile__arrow__down {
+
+    display: none;
+}
+
 .section__4 .description {
 
     color: #1F0101;

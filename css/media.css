@@ -145,7 +145,7 @@
 
     }
 
-    .section__4 .arrow__down img{
+    .section__4 .arrow__down .desctop_arrow_down{
 
         display: none;
 
@@ -169,11 +169,11 @@
 
     }
 
-    .section__4 .arrow__down img {
+    /* .section__4 .arrow__down img {
 
-        /* width: 20px; */
+        width: 20px;
         height: 100%;
-    }
+    } */
 
     .section__4 .description {
 
