@@ -556,12 +556,17 @@ body {
 
 }
 
-.section__9 .description {
+.section__9 .description, .section__9 .mobile__description {
 
     font-family: 'Geologica-light';
     font-size: 40px;
     text-align: center;
     margin-bottom: 83px;
+}
+
+.section__9 .mobile__description {
+
+    display: none;
 }
 
 .section__9 .mobile__arrow__down {

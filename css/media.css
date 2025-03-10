@@ -550,7 +550,20 @@
         font-family: 'Geologica-light';
         font-size: 16px;
         /* text-align: justify; */
-        margin-bottom: 29.57px;
+        margin-bottom: 30px;
+        width: 315px;
+
+        display: none;
+    }
+
+    .section__9 .mobile__description {
+
+        display: block;
+        font-family: 'Geologica-light';
+        font-size: 16px;
+        /* text-align: justify; */
+        margin-bottom: 30px;
+        width: 315px;
     }
 
     .section__9 .description br {
@@ -560,7 +573,7 @@
 
 
     .section__9 .icon__arrow__down {
-        margin-bottom: 29.57px;
+        margin-bottom: 30px;
     }
 
  
@@ -584,7 +597,7 @@
         text-align: center;
         text-transform: uppercase;
     
-        margin-bottom: 29.57px;
+        margin-bottom: 30px;
     }
 
     .section__9 .wrapper {
