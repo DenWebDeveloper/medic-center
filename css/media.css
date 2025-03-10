@@ -118,6 +118,7 @@
     .section__3 {
 
         height: max-content;
+        padding-top: 30px;
     }
 
     .slider .wrapper {
@@ -201,6 +202,8 @@
         font-size: 12px;
 
         padding: 10px;
+        margin-bottom: 10px;
+
     }
 
     .section__5 .wrapper .item.disable {
@@ -232,43 +235,61 @@
     .section__6 .left__item {
 
         width: 100%;
-    }
-
-    .left__item img {
+        height: 310px;
 
         margin-bottom: 30px;
 
     }
 
     .section__6 .right__item {
-        width: 100%;
-        height: max-content;
+
+        width: 320px;
+        height: 222px;
+        padding: 26px 0;
+
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-
+    
+        background-color: #F6F4F4;
+    
         border-radius: 40px;
-
-
-        padding: 31px 10px;
     }
+    
 
     .section__6 .right__item .item__desc {
 
         font-size: 36px;
+        margin-bottom: 18px;
+
 
     }
+
+    .right__item .icon {
+
+        margin-bottom: 18px;
+    }
+
+    
+    .section__6 .right__item .modile__svg {
+
+        display: block;
+    }
+
+    .section__6 .right__item .icon .desctop__svg {
+
+        display: none;
+    }
  
-    .section__6 .right__item .icon {
+    /* .section__6 .right__item .icon {
 
         width: 40px;
         height: 45px;
 
-    }
+    } */
 
     .bottom__desc {
-        width: 297px;
+        width: 298px;
         font-size: 12px;
 
         text-align: center;
@@ -313,6 +334,26 @@
         /* background-color: aqua; */
     }
 
+    .section__7 .central__item .krug {
+
+
+        width: 100px;
+        height: 100px;
+    
+        border-radius: 50%;
+        border: 2px solid #C62928;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        font-family: 'Geologica-medium';
+        font-size: 25px;
+    
+        text-transform: uppercase;
+        color: #C62928;
+    }
+
     .section__7 .wrapper .central__item .left__arrow,
     .section__7 .wrapper .central__item .right__arrow {
 
@@ -320,24 +361,26 @@
        
     }
 
+
     .section__7 .wrapper .central__item .left__arrow {
 
         position: absolute;
         left: 0;
     
         transform-origin: center right;
+
+        transform: translate(-100%, 70px) rotate(-45deg);
+
+        bottom: 0px;
+      
     
-        transform: translate(-100%,87px) rotate(-45deg);
-        top: 50%;
-    
-        /* background-color: aqua; */
     }
 
     .section__7 .wrapper .central__item .down__arrow {
 
         
         height:52.63px;
-        bottom: -100%;
+        bottom: -82.63px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -348,7 +391,7 @@
         transform-origin: center left;
 
 
-        transform: translate(100%,87px) rotate(45deg);
+        transform: translate(100%,70px) rotate(45deg);
 
     
         right: 0;
@@ -386,6 +429,11 @@
         padding: 13px;
         font-size: 12px;
         bottom: -178px
+    }
+
+    .section__8 {
+
+        padding: 60px 0;
     }
 
 
@@ -435,7 +483,7 @@
     .section__8 .wrapper .right__block .medium {
          
         position: absolute;
-        top: 62px;
+        top: 62.50px;
         left: 80px;
         margin-bottom: 0px;
         width: 225.7px;
@@ -467,14 +515,26 @@
         width: 80px;
         height: 80px;
     
-        border-radius: 50%;
-        border: 1px solid #C62928;
-    
         display: flex;
         align-items: center;
         justify-content: center;
     
         margin-bottom: 29.57px;
+    }
+
+    .section__9 .icon .desctop__v {
+
+      display: none;
+    }
+
+    .section__9 .icon .mobile__v {
+
+        display: block;
+
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    
     }
 
     .section__9 .icon img {
@@ -516,8 +576,6 @@
     }
 
 
-    
-
     .section__9 .description_2 {
 
         font-size: 12px;
@@ -536,7 +594,7 @@
 
         align-items: center;
         justify-content: center;
-
+        /* margin-right: 10px; */
         margin-bottom: 60px;
     }
 
@@ -551,6 +609,11 @@
         margin-bottom: 10.31px;
 
 
+    }
+
+    .section__9 .wrapper .item:nth-child(1){
+
+        margin-right: 10px;
     }
 
     .section__9 .wrap__card {
