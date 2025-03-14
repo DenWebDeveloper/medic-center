@@ -185,6 +185,7 @@
 
     .section__4 .title {
 
+        width: 100%;
         font-size: 16px;
 
         /* padding-top: 40px; */
@@ -224,6 +225,7 @@
 
     .section__4 .description {
 
+        width: 100%;
         font-size: 12px;
     }
 
@@ -631,6 +633,13 @@
     }
 
 
+
+    .section__9 .description_2 br {
+
+        display: none;
+    }
+
+
     .section__9 .icon__arrow__down {
         margin-bottom: 30px;
     }
@@ -650,7 +659,7 @@
 
     .section__9 .description_2 {
 
-        width: 100%;
+        width: 280px;
         font-size: 12px;
         color: #1F0101;
     

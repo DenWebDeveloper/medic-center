@@ -240,13 +240,14 @@ body {
 }
 
 .section__4 .title {
-
+    
+    width: 868px;
     font-size: 32px;
     text-align: center;
     color: #1F0101;
 
     text-transform: uppercase;
-    margin-bottom: 60px;
+    margin:0 auto 60px;
 }
 
 
@@ -276,13 +277,14 @@ body {
 
 .section__4 .description {
 
+    width: 811px;
     color: #1F0101;
     font-size: 25px;
     text-align: center;
 
     text-transform: uppercase;
 
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 
 .section__5 {
@@ -362,7 +364,7 @@ body {
 
     background-color: #F6F4F4;
 
-    border-radius: 89px;
+    border-radius: 57px;
 }
 
 .section__6 .right__item .item__desc {
@@ -559,7 +561,7 @@ body {
 
     font-family: 'Geologica-medium';
     font-size: 29px;
-    margin-bottom: 17px;
+    margin-bottom: 16px;
 
 
 }
@@ -743,7 +745,7 @@ body {
 .section__9 .right__item__card .list li .dot {
     position: absolute;
 
-    top: 9px;
+    top: 12px;
     left: -8px;
     width: 8px;
     height: 8px;
