@@ -561,7 +561,7 @@ body {
 
     font-family: 'Geologica-medium';
     font-size: 29px;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
 
 
 }
@@ -708,8 +708,13 @@ body {
     height: 562px;
     background-color: #F6F4F4;
 
-    padding: 56.5px 22px 31.63px;
-    border-radius: 56.86px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+
+    padding-left: 31.63px;
+    border-radius: 57px;
 
  
 }
@@ -723,12 +728,24 @@ body {
 
     color:#C62928;
 
+    text-align: center;
+
 }
 
-.right__item__card .logo {
+.section__9 .right__item__card .wrapper__logo {
+
+    width: 100%;
+    height: max-content;
+
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.section__9 .right__item__card .logo {
 
     width: 64px;
-    height: 63.09px;
+    height: 64px;
     margin-bottom: 32px;
 
 }
@@ -738,7 +755,7 @@ body {
     font-family: 'Geologica-light';
     font-size: 25px;
     padding-left: 15px;
-    margin-left: 15px;
+    margin-left: 20px;
 
 }
 
