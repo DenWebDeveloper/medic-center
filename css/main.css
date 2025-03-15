@@ -569,7 +569,7 @@ body {
 
     font-family: 'Geologica-medium';
     font-size: 29px;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     margin-left: -10px;
 
 }
@@ -734,9 +734,9 @@ body {
     font-family: 'Geologica-medium';
     font-size: 64px;
 
-    color:#C62928;
+    line-height: 46px;
 
-    /* text-align: center; */
+    color:#C62928;
 
 }
 

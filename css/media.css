@@ -193,7 +193,7 @@
 
     }
 
-    .section__4 br {
+    .section__4 br:not(:last-child) {
 
         display: none;
     }
