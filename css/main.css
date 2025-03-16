@@ -284,11 +284,13 @@ body {
 
     text-transform: uppercase;
 
+    margin: 0 auto;
+
     margin-bottom: 0px;
 }
 
 .section__5 {
-    padding-top: 30px;
+    padding-top: 60px;
     padding-bottom: 20px;
 }
 
